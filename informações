@@ -1,0 +1,58 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+<fieldset>
+    <legend>Dados Pessoais:</legend>   
+    Nome: <br>
+<input type="text"> <br><br>
+
+Sexo: <br>
+<input type="radio" name="sexo">Masculino<br><br>
+<input type="radio" name="sexo">Feminino<br><br>
+<input type="radio" name="sexo">Outros<br><br>
+
+Habilidades:<br>
+<input type="checkbox"> Proativo(a)<br>
+<input type="checkbox"> Atencioso(a)<br>
+<input type="checkbox"> Criativo(a)<br>
+
+Senha <br> 
+<input type="password" placeholder="de 5 a 15 caracteres"><br><br>
+</fieldset>
+
+ Data de Nascimento: <br> 
+<input type="date"> <br><br>
+
+ Endereço:<br> 
+<input type="text"><br><br>
+
+ Número:<br>
+ <input type="number" min="0" max="100" step="2"> <br><br>
+
+ email:<br>
+ <input type="email" required><br><br>
+
+ site:<br>
+<input type="url" required><br><br>
+
+UF:<br>
+<select>
+<option>Selecione</option><br><br>
+<option>MG</option><br><br>
+<option>SP</option><br><br>
+
+</select>
+
+<input type="button" value="Cadastrar"> 
+<input type="reset" value="Limpar"> 
+
+</form>
+</body>
+</html>
