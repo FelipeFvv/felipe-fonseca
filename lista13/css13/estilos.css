@@ -1,0 +1,90 @@
+.principal {
+    text-align: right;    
+    background-color: black;  
+    color: white;           
+    padding: 10px;          
+    margin: 0;             
+}
+.secundario{
+    text-align: right;    
+    background-color: gray; 
+    color: white;           
+    padding: 10px;         
+    margin: 0;   
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: blue;  
+    padding: 10px;           
+}
+
+nav ul {
+    list-style-type: none;   
+    margin: 0;              
+    padding: 0;             
+    display: flex;           
+    justify-content: space-around; 
+}
+
+nav ul li {
+    margin: 0 5px;           
+}
+
+nav ul li a {
+    color: white;           
+    text-decoration: none;   
+    font-size: 14px;         
+}
+
+nav ul li a:hover {
+    text-decoration: underline; 
+}
+main {
+    border-left:120px solid black;
+    border-right:120px solid black;
+}
+.Imagem {
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+    
+}
+
+footer {
+    background-color: gray;  
+    padding: 20px;           
+    display: flex;           
+    justify-content: center; 
+    align-items: center;     
+    height: 60px;            
+}
+
+footer p {
+    color: white;           
+    margin: 0;               
+    font-size: 16px;        
+}
+
+footer p a {
+    color: white;            
+    text-decoration: underline; 
+}
